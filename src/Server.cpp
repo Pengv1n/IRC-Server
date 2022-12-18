@@ -65,10 +65,10 @@ void Server::loadConfig() {
     maxInactiveTimeout = 1200;
     maxResponseTimeout = 600;
     operators.insert(std::pair<std::string, std::string>(
-            "aregenia", "46332f2c09c368c8f63178c0e1af4ebd5ed077a442e12f76e6bf76d0e7a4dace"
+            "aregenia", "8d23cf6c86e834a7aa6eded54c26ce2bb2e74903538c61bdd5d2197997ab2f72"
             ));
     operators.insert(std::pair<std::string, std::string>(
-            "ntitan", "16c167c315efcdd03dbe1b21d58173e57415fc66ef0a7682b319843150eb52ff"
+            "ntitan", "98f1f17f9a73ccfe3e25940add8d9ce9bf05513104cacb84f2f1185bf5886a84"
     ));
 
     std::cout << "CONFIG" << std::endl;
