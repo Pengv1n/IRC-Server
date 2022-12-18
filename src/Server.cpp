@@ -59,14 +59,17 @@ void Server::loadConfig() {
     describe = "describe";
     adminName = "Georgiy";
     adminNickname = "aregenia";
-    adminEmail = "georgiy_gosha_09@mail.ru";
+    adminEmail = "aregenia@student.21-school.ru";
     allowedIP = inet_addr("0.0.0.0");
     maxChannels = 10;
     maxInactiveTimeout = 1200;
     maxResponseTimeout = 600;
     operators.insert(std::pair<std::string, std::string>(
-            "aregenia", ""
+            "aregenia", "46332f2c09c368c8f63178c0e1af4ebd5ed077a442e12f76e6bf76d0e7a4dace"
             ));
+    operators.insert(std::pair<std::string, std::string>(
+            "ntitan", "16c167c315efcdd03dbe1b21d58173e57415fc66ef0a7682b319843150eb52ff"
+    ));
 
     std::cout << "CONFIG" << std::endl;
     std::cout << "servername: " << name << std::endl;
