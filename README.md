@@ -29,9 +29,9 @@ nc localhost <port>
   <li>USER-message</li>
 </ul>
 <p>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client. </p>
-
+  <h3> Processed commands </h3>
 <ol>
-  <lo>Регистрация соединения
+  <lo>Connection registration
     <ul>
       <li>PASS</li>
       <li>NICK</li>
@@ -40,7 +40,7 @@ nc localhost <port>
       <li>QUIT</li>
     </ul>
   </lo>
-  <lo>Регистрация соединения
+  <lo>Users
     <ul>
       <li>PRIVMSG</li>
       <li>AWAY</li>
@@ -50,7 +50,7 @@ nc localhost <port>
       <li>WHOWAS</li>
     </ul>
   </lo>
-  <lo>Регистрация соединения
+  <lo>Channels
     <ul>
       <li>MODE</li>
       <li>TOPIC</li>
@@ -62,7 +62,7 @@ nc localhost <port>
       <li>LIST</li>
     </ul>
   </lo>
-  <lo>Регистрация соединения
+  <lo>Other
     <ul>
       <li>WALLOPS</li>
       <li>PING / PONG</li>
