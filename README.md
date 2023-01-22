@@ -5,7 +5,7 @@
   direct messages and join group channels.
 </p>
 
-<h3> Execute </h3>
+<h3> Execute/Start Server </h3>
 
 ```
 ./ircserv <port> <password>
@@ -15,3 +15,10 @@
   <li> port: The port number on which your IRC server will be listening to for incoming IRC connections. </li>
   <li> password: The connection password. It will be needed by any IRC client that tries to connect to your server. </li>
 </ul>
+
+<h3> Client </h3>
+After the server is started, clients can connect to it. On a local server, you can use:
+
+```
+nc localhost <port>
+```
