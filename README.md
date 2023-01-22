@@ -23,8 +23,9 @@ After the server is started, clients can connect to it. On a local server, you c
 nc localhost <port>
 ```
 <h3> Mandatory conditions for user registration </h3>
-
-<p>PASS-message</p>
-<p>NICK-message</p>
-<p>USER-message</p>
+<ul>
+  <li>PASS-message</li>
+  <li>NICK-message</li>
+  <li>USER-message</li>
+</ul>
 <p>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client with the corresponding numeric responses. </p>
