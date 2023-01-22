@@ -22,7 +22,6 @@ After the server is started, clients can connect to it. On a local server, you c
 ```
 nc localhost <port>
 ```
-<img src="./connect.gif">
 
 <h3> Mandatory conditions for user registration </h3>
 <ul>
@@ -31,6 +30,8 @@ nc localhost <port>
   <li>USER-message</li>
 </ul>
 <p>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client. </p>
+  <img src="./connect.gif">
+  
   <h3> Processed commands </h3>
 <ol>
   <lo>Connection registration
