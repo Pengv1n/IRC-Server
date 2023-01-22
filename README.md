@@ -52,26 +52,26 @@ nc localhost <port>
   </lo>
   <lo>Регистрация соединения
     <ul>
-      MODE
-      TOPIC
-      JOIN
-      INVITE
-      KICK
-      PART
-      NAMES
-      LIST
+      <li>MODE</li>
+      <li>TOPIC</li>
+      <li>JOIN</li>
+      <li>INVITE</li>
+      <li>KICK</li>
+      <li>PART</li>
+      <li>NAMES</li>
+      <li>LIST</li>
     </ul>
   </lo>
   <lo>Регистрация соединения
     <ul>
-      WALLOPS
-      PING / PONG
-      ISON
-      USERHOST
-      VERSION
-      INFO
-      ADMIN
-      TIME
+      <li>WALLOPS</li>
+      <li>PING / PONG</li>
+      <li>ISON</li>
+      <li>USERHOST</li>
+      <li>VERSION</li>
+      <li>INFO</li>
+      <li>ADMIN</li>
+      <li>TIME</li>
     </ul>
   </lo>
 </ol>
