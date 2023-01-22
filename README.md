@@ -40,31 +40,38 @@ nc localhost <port>
       <li>QUIT</li>
     </ul>
   </lo>
-Пользователи
-PRIVMSG
-AWAY
-NOTICE
-WHO
-WHOIS
-WHOWAS
-Каналы
-Оператор канала
-MODE
-TOPIC
-JOIN
-INVITE
-KICK
-PART
-NAMES
-LIST
-Прочее
-IRC-операторы и конфиг
-WALLOPS
-PING / PONG
-ISON
-USERHOST
-VERSION
-INFO
-ADMIN
-TIME
+  <lo>Регистрация соединения
+    <ul>
+      <li>PRIVMSG</li>
+      <li>AWAY</li>
+      <li>NOTICE</li>
+      <li>WHO</li>
+      <li>WHOIS</li>
+      <li>WHOWAS</li>
+    </ul>
+  </lo>
+  <lo>Регистрация соединения
+    <ul>
+      MODE
+      TOPIC
+      JOIN
+      INVITE
+      KICK
+      PART
+      NAMES
+      LIST
+    </ul>
+  </lo>
+  <lo>Регистрация соединения
+    <ul>
+      WALLOPS
+      PING / PONG
+      ISON
+      USERHOST
+      VERSION
+      INFO
+      ADMIN
+      TIME
+    </ul>
+  </lo>
 </ol>
