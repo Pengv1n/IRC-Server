@@ -5,6 +5,12 @@
   direct messages and join group channels.
 </p>
 
+<h3> Execute </h3>
+
 ```
 ./ircserv <port> <password>
 ```
+
+• port: The port number on which your IRC server will be listening to for incoming
+IRC connections.
+• password: The connection p
