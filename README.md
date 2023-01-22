@@ -11,7 +11,7 @@
 ./ircserv <port> <password>
 ```
 
-<ul> 
-  <il> port: The port number on which your IRC server will be listening to for incoming IRC connections. </il>
-  <il> password: The connection password. It will be needed by any IRC client that tries to connect to your server. </li>
+<ul>
+  <li> port: The port number on which your IRC server will be listening to for incoming IRC connections. </li>
+  <li> password: The connection password. It will be needed by any IRC client that tries to connect to your server. </li>
 </ul>
