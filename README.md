@@ -4,7 +4,7 @@
   It offers real-time messaging that can be either public or private. Users can exchange
   direct messages and join group channels.
 </p>
-
+The server is written according to the <a href="https://www.ietf.org/rfc/rfc1459.txt">rfc1459<a> standard.
 <h3> Execute/Start Server </h3>
 
 ```
