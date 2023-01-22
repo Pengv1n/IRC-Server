@@ -22,6 +22,8 @@ After the server is started, clients can connect to it. On a local server, you c
 ```
 nc localhost <port>
 ```
+<img src="./connect.gif">
+
 <h3> Mandatory conditions for user registration </h3>
 <ul>
   <li>PASS-message</li>
