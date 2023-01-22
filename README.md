@@ -16,9 +16,15 @@ The server is written according to the <a href="https://www.ietf.org/rfc/rfc1459
   <li> password: The connection password. It will be needed by any IRC client that tries to connect to your server. </li>
 </ul>
 
-<h3> Client </h3>
+<h3> Connect Client </h3>
 After the server is started, clients can connect to it. On a local server, you can use:
 
 ```
 nc localhost <port>
 ```
+<h3> Mandatory conditions for user registration </h3>
+
+PASS-message
+NICK-message
+USER-message
+The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client with the corresponding numeric responses.
