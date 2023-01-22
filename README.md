@@ -24,7 +24,7 @@ nc localhost <port>
 ```
 <h3> Mandatory conditions for user registration </h3>
 
-PASS-message
-NICK-message
-USER-message
-The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client with the corresponding numeric responses.
+<a>PASS-message</a>
+  <a>NICK-message</a>
+  <a>USER-message</a>
+<a>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client with the corresponding numeric responses. </a>
