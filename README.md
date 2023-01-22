@@ -28,4 +28,43 @@ nc localhost <port>
   <li>NICK-message</li>
   <li>USER-message</li>
 </ul>
-<p>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client with the corresponding numeric responses. </p>
+<p>The PASS message should not be entered by the client last. If the registration is successful, a MOTD (message of the day) is sent to the client. </p>
+
+<ol>
+  <lo>Регистрация соединения
+    <ul>
+      <li>PASS</li>
+      <li>NICK</li>
+      <li>USER</li>
+      <li>OPER</li>
+      <li>QUIT</li>
+    </ul>
+  </lo>
+Пользователи
+PRIVMSG
+AWAY
+NOTICE
+WHO
+WHOIS
+WHOWAS
+Каналы
+Оператор канала
+MODE
+TOPIC
+JOIN
+INVITE
+KICK
+PART
+NAMES
+LIST
+Прочее
+IRC-операторы и конфиг
+WALLOPS
+PING / PONG
+ISON
+USERHOST
+VERSION
+INFO
+ADMIN
+TIME
+</ol>
